@@ -25,4 +25,4 @@ El problema requiere varios pasos extra que aportan complejidad a su resolución
 
 ## Referencias 
 
-- [Documentacion complementaria](documentacion_extra.md)
+- [Documentacion complementaria](documentacion_extra.md): documentación complementaria en la que se muestra la configuración previa de git. 
