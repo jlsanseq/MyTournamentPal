@@ -6,22 +6,20 @@
 
 ## ¿Cúal es el problema?
 
-El cliente es un jugador del wargame de mesa Warhammer 40k. Recientemente, al intentar hacer una liga con la que jugar con su grupo de juego y amigos se han dado cuenta de que tienen medios precarios. La organización se realiza sola y exclusivamente por WhatsApp de forma desorganizada y sin seguir ningún criterio. Además, este grupo quiere alcanzar un nivel más competitivo, por lo que despues de cada partida el resto de miembros de la liga no saben como ha ido, en que rondas se ha puntuado que y otra información vital con la que conocer mejor a sus futuros rivales y pairings. 
+Soy un jugador del wargame de mesa Warhammer 40k que participa en una liga con su grupo de amigos. En esta liga los jugadores se enfrentan entre ellos en diversas partidas a lo largo de una serie de meses. Cada mes se realizan nuevos emparejamientos, cada jugador debe jugar 2 partidas con dos personas distintas con las que haya sido emparejado. 
+
+Al hacer esta liga, la organización es bastante rudimentaria y desorganizada. Los pairings y enfrentamientos se realizan de forma totalmente aleatoria y sin tener en cuenta el nivel de los jugadores, lo que lleva a que dos personas con un nivel muy distinto entre si jueguen o los jugadores repitan varias veces partida con el mismo rival, haciendo que algunas personas dejen de participar o directamente se nieguen por miedo a no poder disfrutar de la liga.
+
+El problema por tanto, sería que actualmente no existe ninguna herramienta o plataforma para poder realizar estos emparejamientos de forma justa y teniendo en cuenta el nivel de los usuarios en base a como han ido sus partidas anteriores.
 
 ## ¿Que datos hay disponibles?
 
-La propia tarea de apuntar las partidas depende enteramente de los usuarios de los jugadores que participen en la liga. Sin embargo, la lógica de las mismas, el cómo se realiza la puntuación dentro de ellas y cualquier otro aspecto sigue un conjunto de reglas bien definidas en el juego de mesa. La puntuación se divide entre las llamadas misiones primarias y secundarias, siendo las primarias dependientes de con quien toque jugar y las segundas elegidas de forma aleatoria de unas opciones previamente definidas. 
-
-Estas reglas se encuentran en el propio material del juego de mesa, aunque de forma online hay varias plataformas tales como Wahapedia, GDMissions o los propios medios y artículos facilitados por la empresa creadora del juego, Games Workshop. 
+Los datos necesarios para realizar estos emparejamientos serían las puntuaciones que se obtienen tras cada partida. Se encuentran de forma desorganizada en un grupo de WhatsApp o por los propios usuarios. Al acabar una partida, uno de los dos jugadores envía sus respectivas puntuaciones. Estos datos pueden ser perfectamente obtenidos y sintetizados para su uso en la resolución del problema. 
 
 ## Lógica de Negocio
 
-Si bien parece que simplemente con apuntar a los jugadores y sus puntuaciones se resolvería el problema, esto no sería cierto. Quedandose en una solución tan simple no sería si no transportar el problema de tener toda esa información en una aplicación en la nube en vez de en un grupo de Whatsapp. 
+La aplicación deberá calcular y generar los nuevos enfrentamientos en base a las partidas de la ronda anterior. Los jugadores deberán ser clasificados y sus resultados previos analizados para que se pueda resolver el problema correctamente y teniendo en cuenta las restricciones que originan el problema en primer lugar. Es decir, la falta de criterio a la hora de generar los emparejamientos y no relegar la tarea a una simple asignación aleatoria. 
 
-El problema requiere varios pasos extra que aportan complejidad a su resolución:
-- El cliente necesita generar encuentros con otros jugadores a su nivel (o con los que menos se alejen) que participen en el evento. Este cálculo debería hacerse sobre los encuentros en la misma liga siguiendo sistemas de emparejamiento como el sistema suizo.
-- Estos encuentros a su vez, van a tener que ser válidados para garantizar que se esten respetando las reglas de puntuación del juego. 
-- Para que el resto de jugadores no vea simplemente los puntos que ha hecho cada uno sin saber cuando y porqué se han realizado las diversas puntuaciones (como está siendo hasta ahora), el cliente sigue necesitando algún tipo de resumen o filtrado de los datos de cada partida aunque el no haya participado.
 
 ## Referencias 
 
