@@ -6,34 +6,32 @@
 
 ## ¿Cuál es el problema?
 
-Soy un jugador de Warhammer 40k y una situación que muchos jugadores viven en cada partida, independientemente de cuanto tiempo lleven en este juego, es que muchas veces no saben cuando merece la pena enfrentar una unidad con otra en mesa o que resultados esperar.
+Soy un jugador de Warhammer 40k y una situación que muchos jugadores viven en cada partida, independientemente de cuanto tiempo lleven en este juego, es que muchas veces no saben cuando merece la pena enfrentar una unidad con otra en mesa o que resultados esperar de dicho enfrentamiento.
 
-Cada unidad de un ejército en el juego tiene unas características, unos perfiles de armas y coste en puntos. Estas estadísticas pueden verse modificadas por reglas extra, propias e cada unidad, o del propio ejército que tiene un jugador. Debido a estos factores y de la propia aleatoridad del juego al funcionar con dados, es complicado saber que resultado esperar de cada enfrentamiento. 
+Cada unidad de un ejército en el juego tiene unas características, unos perfiles de armas y coste en puntos. Estas estadísticas pueden verse modificadas por reglas extra, propias de cada unidad, o del propio ejército que tiene un jugador. Debido a estos factores y de la propia aleatoridad del juego al funcionar con dados, es complicado saber que resultado esperar de cada enfrentamiento. 
 
-Por ejemplo, una unidad que cueste menos puntos que otra, por alguno de sus perfiles de armas, puede llegar a hacer daño y debilitar a otra de mayor coste. 
-
-Actualmente para realizar estas comparativas y simular como puede suceder un combate, cualquier aficionado tiene que buscar las fichas de cada unidad y compararlas el mismo manualmente. El problema planteado por tanto, es desarrollar un sistema capaz de simular enfrentamientos entre unidades de Warhammer 40k y estimar su posible resultado.  
+Actualmente para realizar estas comparativas y simular como puede suceder un combate, un aficionado tiene que buscar las fichas de cada unidad y compararlas el mismo manualmente. Esto dificulta comparar de forma rápida diferentes enfrentamientos y valorar que resultado esperar de ellos. 
 
 ## ¿Que datos hay disponibles?
 
-Los datos necesarios para realizar estas simulaciones se pueden encontrar de forma disponible en diversas fuentes y abiertos para su uso:
-- Wahapedia.ru ofrece de forma abierta en formato .CSV las reglas de todas las unidades del juego. 
-- De igual forma, el proyecto BSData cumple la misma función usando el formato .json. 
+Los datos necesarios para realizar estas simulaciones se pueden encontrar de forma disponible en diversas fuentes estructuradas y abiertas para su uso:
+- Wahapedia.ru ofrece de forma abierta y para su uso por la comunidad de jugadores en formato .CSV toda la información pertinente de las unidades como sus perfiles, armamento y reglas.
+- El proyecto BSData proporciona también estos datos estructurados mediante archivos en formato .json.
 
-Cualquier producto a desarrollar tendría que usar alguna de las dos fuentes para alimentar su Base de Datos con la que realizar las simulaciones posteriormente
+Cualquier producto a desarrollar usará alguna de las dos fuentes para alimentar su Base de Datos con la que realizar las simulaciones posteriormente.
 
 ## Lógica de Negocio
 
-El producto tendrá que calcular la simulación del resultado de un enfrentamiento entre dos perfiles de dos unidades distintas teniendo en cuenta las características de base de cada unidad y el armamento seleccionado. 
+El producto tendrá que calcular y simular el resultado de un enfrentamiento entre dos perfiles de dos unidades distintas teniendo en cuenta las características de base de cada unidad y el perfil de armas seleccionado. 
 
-De forma simplificada, para realizar un ataque en Warhammer 40k se selecciona un perfil de la ficha de una unidad y se elige a que unidad del rival se atacará. En ese momento se realizan una serie de pasos:
-- Se comprueba si el ataque logra impactar teniendo en cuenta la dificultad en el perfil (supongamos que indica +4, impactarán solo aquellos dados con valor superior o igual a 4).
-- Se calcula el valor necesario para herir comparando la fuerza del perfil con la resistencia de la unidad objetivo. Si la fuerza es igual que la resistencia al +4; si es menor al +5, al +6 si lo es el doble; si es mayor al +3, al +2 si es el doble.
-- Se procede a la tirada y todos los que pasen, el rival deberá "salvarlos". Esto es tirar un dado igual al valor de la característica de Salvación de la humanidad. Este valor es afectado por la penetración del arma que dispare: supongamos que un perfil tiene -1 de Penetración y la unidad a la que disparan tiene +4 de Salvación. Se aplica la penalización y ahora salva al +5. 
-- Una vez resueltas las salvaciones, aquellos dados para herir que no hayan sido retirados harán daño. Este daño estará en el perfil del arma y restará heridas al perfil atacado. 
+Para esclarecer mejor que comportamiento debería seguir el producto, los combates en Warhammer 40k se resuelven de la siguiente manera: 
+- Se selecciona una unidad atacante y un perfil de armas y como objetivo una unidad del rival. 
+- **Impactar**: se tira un dado según el valor de Ataques (A) del perfil de armas teniendo en cuenta la Habilidad para Impacatar (BS). Por ejemplo, si indica 4+, solo serán validos los resultado mayores o iguales a 4. Los dados que cumplan esto, se tiran otra vez para herir.
+- **Herir**: se compara la Fuerza (S) del perfil de armas con la Resistencia (T) de la unidad objetivo. Si ambas son iguales, se necesita un 4+; si la Fuerza es mayor, un 3+ o 2+ si es dos veces mayor; de forma inversa, si la Fuerza es menor, será necesario 5+ o 6+. 
+- **Salvacion**: los dados que hayan logrado herir, podrán ser detenidos por la unidad objetivo usando la Salvación (Sv). Este valor puede modificarse por la característica de Penetración (AP) del perfil de la unidad atacante. Por ejemplo, si una unidad tiene Salvación +4 y el perfil de armas del atacante AP -1, podrá eliminar los dados para herir con un 5+. 
+- **Daño**: aquellos dados para herir que no hayan sido eliminados durante la Salvación, pasan a hacer daño. Este valor se resta a las Heridas (W) de la unidad objetivo, pudiendo provocar su eliminación. 
 
-Debido a que las tiradas son aleatorias, usar un cálculo probabilistico puede ser una opción recomendable. 
-
+Todos estos cálculos se pueden ver afectados por las diferentes habilidades y reglas especiales de las unidades.
 
 ## Referencias 
 
