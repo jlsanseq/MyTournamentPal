@@ -16,8 +16,15 @@ Actualmente para realizar estas comparativas y estimar como puede suceder un com
 
 Los datos necesarios para realizar estas simulaciones se pueden encontrar de forma disponible para su descarga en diversas fuentes estructuradas y abiertas para su uso:
 
-- Wahapedia.ru ofrece de forma abierta y para su uso por la comunidad de jugadores en formato .CSV toda la información pertinente de las unidades como sus perfiles, armamento y reglas y todas las reglas especiales de cada ejército.
-- El proyecto BSData proporciona también estos datos estructurados mediante archivos en formato .json en su repositorio de GitHub con licencia de uso MIT.
+- Wahapedia.ru ofrece de forma abierta y para su uso por la comunidad de jugadores en formato .CSV toda la información pertinente de las unidades como sus perfiles, armamento y reglas y todas las reglas especiales de cada ejército a través del siguiente enlace: https://wahapedia.ru/wh40k11ed/Export%20Data%20Specs.xlsx?v=20260817b que se puede encontrar en la sección de 'Data export' dentro del propio Wahapedia.ru. Sobre los ficheros CSV y los datos de ínteres que contienen. Estas tablas están conectadas entre si por los identificadores de 'datasheet_id':  
+    - `Factions.csv`: contiene los IDs de ejercitos del juego.     
+    - `Datasheets.csv`: contiene todas las fichas de unidad.  
+    - `Datasheets_models.csv`: contiene los datos referentes a las características de una unidad.
+    - `Datasheet_keyword.csv`: contiene las claves que modifican una unidad y los efectos de sus perfiles de armas.
+    - `Datasheet_wargear.csv`: contiene los perfiles de armas.
+    - `Datasheet_model_cost.csv`: contiene los costes en pts de cada unidad. 
+
+- El proyecto BSData proporciona también estos datos estructurados mediante archivos en formato .json en su repositorio de GitHub con licencia de uso MIT. 
 
 El producto puede utilizar alguna de estas fuentes como origen de los datos que posteriormente serán almacenados y procesados por el sistema para realizar las simulaciones.
 
