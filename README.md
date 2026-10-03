@@ -60,3 +60,11 @@ La lógica de negocio tendrá que analizar estos posibles resultados para evalua
 ## Referencias 
 
 - [Documentacion complementaria](documentacion_extra.md): documentación complementaria en la que se muestra la configuración previa de git. 
+
+### Planificación del proyecto
+
+Planificacion del proyecto referente al Objetivo 1:
+- [Historias de usuario](docs/historias_usuario.md)
+- [Milestones](docs/milestones.md)
+- [Personas](docs/personas.md)
+- [User Journeys](docs/user_journeys.md)
