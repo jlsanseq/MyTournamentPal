@@ -2,16 +2,12 @@
 
 ## Milestone 0: Modelar el dominio
 
-En este milestone se persigue modelizar las estructuras de datos que se usarán para resolver el problema. 
+En este milestone se persigue alcanzar un producto que permita consultar la información pertinente a las unidades del juego para que un usuario pueda conocer sus capacidades. 
 
-Será necesario establecerlas para una unidad genérica la cúal tendrá asignado un Perfil de Armas y unas Características. Tanto el Perfil de Armas como las Características tendrán que considerar posibles claves asignadas a ambos.
-
-Al finalizarlo se tendrá una estructura básica que podrá usarse para posteriores etapas del desarrollo.
+El producto será válido cuando permita representar y consultar una unidad junto con sus características, perfiles de armas y habilidades relevantes. En conclusión: la información necesaria para resolver el problema. Esta información se comparará con la fuente de datos utilizada.
 
 ## Milestone 1: Simulación básica
 
-En este milestone se intentará replicar las reglas básicas de un combate entre una unidad atacante y una unidad objetivo. Por parte de la unidad atacante tendrá que intervenir uno de sus Perfiles de Armas asignado y por parte de la unidad objetivo intervendran sus Características de Unidad. 
+En este milestone se busca alcanzar un producto que permita simular un enfrentamiento entre una unidad atacante y una unidad defensora a partir de la información disponible sobre ambas.
 
-Es necesario que estos elementos hayan sido modelados correctamente en el Milestone anterior. 
-
-En el momento de su finalización se podrá simular un combate básico con el que obtener unos resultados para su uso en posteriores etapas. 
+El producto será válido cuando permita resolver un enfrentamiento aplicando las reglas básicas de combate y teniendo en cuenta la aleatoriedad de las tiradas, obteniendo información estadística sobre los resultados posibles alcanzados.  
