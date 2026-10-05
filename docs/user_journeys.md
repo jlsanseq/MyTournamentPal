@@ -8,8 +8,6 @@ Luis ha quedado con un amigo suyo para jugar en su local de confianza este fin d
 
 Mientras va en el autobus, piensa en cómo podría usarlas contra su amigo y qué esperarse de las propias unidades de su amigo. Como no conoce bien las capacidades de ambos, decide abrir MyTournamentPal en su móvil y probar algunos enfrentamientos. 
 
-
-
 ## Jornada 2: El torneo de Alejandro se acerca
 
 Alejandro tiene un torneo con su equipo este finde, el GT de Talavera, uno de los más importantes de España y del mundo. 

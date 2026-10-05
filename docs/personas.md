@@ -6,7 +6,7 @@ Luis descubrió hace poco Warhammer y ha estado montandose un ejército para jug
 
 ## Alejandro, 37 años 
 
-Alejandro es un veterano en el juego. Lleva jugando desde hace muchos años y participa habitualmente en torneos con un equipo de amigos. Se dedica a estudair las reglas y las interacciones entre las diferentes unidades antes de sus partidas.
+Alejandro es un veterano en el juego. Lleva jugando desde hace muchos años y participa habitualmente en torneos con un equipo de amigos. Se dedica a estudiar las reglas y las interacciones entre las diferentes unidades antes de sus partidas.
 
 Al llevar tantos años jugando tiene varios ejércitos y conoce una gran cantidad de unidades, perfiles de armas, etc. Sin embargo, al tener que pensar en tanto hasta alguien experimentado cómo el le cuesta analizar posibles enfrentamientos.
 
