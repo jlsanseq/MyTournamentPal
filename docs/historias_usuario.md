@@ -2,18 +2,27 @@
 
 ## [HU001] No se a que me voy a enfrentar
 
-Soy un jugador nuevo y me resulta algo confuso que encontrarme en las partidas. Muchas veces veo las miniaturas de las unidades del rival y no se que esperarme. 
+**Persona:** [Luis](personas.md). 
+**Milestone asociado:** M0.
 
-No conozco las reglas y al llevar tan poco tiempo, he visto muy pocos ejércitos diferentes. Cuando veo a una unidad rival no puedo conocer previamente sus características, sus perfiles de armas o las claves que tienen cualquiera de los dos asignadas para saber que esperarme. 
+Soy un jugador nuevo de Warhammer 40k con poca experiencia y me resulta algo confuso que pueden hacer las unidades del rival. Como apenas he empezado, no he podido ver mucha variedad y desconozco que puede hacer una unidad x o y que no he visto previamente.
 
+Quiero poder consultar las unidades del juego y poder ver sus perfiles de armas, características y claves que los modifican para hacerme una idea de que esperar de ellas.  
 
 ## [HU002] No tengo forma de analizar a mis rivales
 
-últimamente estoy llendo a más torneos que de costumbre, pero ya no dispongo de tanto tiempo como antes para estudiar los ejércitos de ambos de forma previa. 
+**Persona:** [Alejandro](personas.md).
+**Milestone asociado:** M1.
 
-Antes quedaba con mi equipo para que cada uno trajesemos nuestras miniaturas y comparar manualmente distintos escenarios, pero esto ya no es posible. Me gustaría poder simular al menos como se enfrentaría una unidad con otra.
+Últimamente he tenido más tiempo para poder ir a torneos competitivos de Warhammer 40k que de normal, pero por el trabajo no tengo tanto tiempo como antes para pararme a estudiar posibles combates. 
 
+Lo que hacía antes era reunirme con amigos míos y probar nosotros manualmente, pero al consumir tanto tiempo ya no lo hacemos. Me gustaría poder simular combates entre el perfil de armas de una unidad atacante y las características de una unidad defensora, teniendo en cuenta la aleatoriedad de las tiradas y obteniendo información estadística sobre sus posibles resultados. 
 
-## [HU003] No se a que atacar
+## [HU003] No se que enfrentamiento me interesa
 
-En muchas partidas una de mis unidades puede atacar a una u otra del rival, pero como no se como valorar si podré hacerle mucho daño o no, simplente ataco lo primero que se me ocurra y al acabar mi rival me explica que si hubiera atacado a la otra a lo mejor me podría haber conseguido más ventaja en la partida. 
+**Persona:** [Luis](personas.md). 
+**Milestone asociado:** 
+
+En muchas partidas una de mis unidades puede enfrentarse a una u otra del rival, pero como no sé cómo valorar que enfrentamiento me resulta más favorable, no tengo claro cuál de las dos opciones me interesa más.
+
+Quiero poder obtener una valoración de los posibles resultados de diferentes enfrentamientos para determinar cuál de ellos puede resultarme más favorable 
