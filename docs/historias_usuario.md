@@ -18,7 +18,7 @@ Cuando juego una partida contra un rival, no tengo forma de saber que hacen sus 
 
 **Fuentes de los datos:** [¿Qué datos hay disponibles?](../README.md#qué-datos-hay-disponibles), [Como funciona un combate en Warhammer 40k](../README.md#cuál-es-el-problema)
 
-Por culpa del trabajo, mi equipo y yo no tenemos tanto tiempo como antes para prepararnos antes de un torneo. Lo que hacíamos era reunirnos y probar enfrentamientos manualmente pasando por todas las fases de estos enfrentamientos para anotar los resultados y sacar análisis estadísticos de ellos, sacando medias del daño que podríamos hacer, el mínimo o el máximo. En resumen, saber de forma clara la conclusión de los enfrentamientos. Ahora ya no podemos hacerlo porque consume mucho tiempo, por lo que hecho en falta una herramienta para realizar esto de forma automática y cómoda. 
+Por culpa del trabajo, mi equipo y yo no tenemos tanto tiempo como antes para prepararnos antes de un torneo. Lo que hacíamos era reunirnos y probar enfrentamientos manualmente pasando por todas las fases de estos enfrentamientos para anotar los resultados y sacar análisis estadísticos de ellos, sacando medias del daño que podríamos hacer, el mínimo o el máximo. En resumen, saber de forma clara la conclusión de los enfrentamientos y reflejarlos de forma estadística. Ahora ya no podemos hacerlo porque consume mucho tiempo, por lo que hecho en falta una herramienta para realizar esto de forma automática y cómoda. 
 
 ## [HU003] No se que enfrentamiento me interesa
 
