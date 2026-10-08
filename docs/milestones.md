@@ -2,17 +2,11 @@
 
 ## Milestone 0: Representación del dominio
 
-**Historia de Usuario implicada**: [HU001]
+En este milestone se usará la metodología de DDD para desarrollar un PMV donde se tenga un modelado del dominio en base a las Historias de Usuario y que nos permita trabajar sobre el problema en siguientes milestones. Se trabajará principalmente sobre la [HU001](historias_usuario.md#hu001-no-se-a-que-me-voy-a-enfrentar).
 
-En este milestone se persigue alcanzar un PMV que alcance una representación de la información necesaria para conocer las capacidades de las unidades de Warhammer 40k relevantes para el problema.
-
-Este PMV debe poder representar la información mencionada, siendo esta: las características de una unidad y sus perfiles de armas asociados, ambas con sus propios atributos internos.
-
-El producto será válido cuando permita representar y consultar unidades reales y los datos relevantes de las mismas de forma consistente con la fuente de datos utilizada por el proyecto. Esta validación se realizará contrastando la infromación representada con los datos a emplear. 
+La validez se comprobará observando si se ha seguido correctamente la metodología en base al dominio del problema.
 
 ## Milestone 1: Simulación básica
-
-**Historia de Usuario implicada**: [HU002]
 
 En este milestone se busca alcanzar un PMV que permita simular un enfrentamiento entre una unidad atacante y una unidad defensora para conocer que resultados puede aplicando las reglas de combate y aleatoriedad de las tiradas. 
 
