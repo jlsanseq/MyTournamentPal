@@ -2,23 +2,31 @@
 
 ## [HU001] No se a que me voy a enfrentar
 
-**Persona:** [Luis](personas.md). 
+**Persona:** [Luis](personas.md#luis-21-años). 
 
-Soy un jugador nuevo de Warhammer 40k con poca experiencia y me resulta algo confuso que pueden hacer las unidades del rival. Como apenas he empezado, no he podido ver mucha variedad y desconozco que puede hacer una unidad x o y que no he visto previamente.
+**User Journey:** [User Journey 1](user_journeys.md#user-journey-1-luis-tiene-una-partida).
 
-Para hacerme una idea de que esperar de ellas tengo que conocer sus características y perfiles de armas como mínimo.
+**Fuentes de los datos:** [¿Qué datos hay disponibles?](../README.md#qué-datos-hay-disponibles)
+
+Cuando juego una partida contra un rival, no tengo forma de saber que hacen sus unidades. Ya de por si me resulta complicado saber que hacen las mias y la información de sus perfiles de armas y características, pero con las del rival esto no hace mas que acrecentarse. Muchas veces he enfrentado una de mis unidades con otra que sencillamente la ha eliminado sin que la mía pudiera apenas hacerle algo de daño o directamente nada. Creo que esta falta de conocimiento me está afectando enormemente y mis elecciones serían mucho mejores si pudiera saber que perfiles de armas y características tienen las unidades de mi rival. 
 
 ## [HU002] No tengo forma de analizar a mis rivales
 
-**Persona:** [Alejandro](personas.md).
+**Persona:** [Alejandro](personas.md#alejandro-37-años).
 
-Últimamente he tenido más tiempo para poder ir a torneos competitivos de Warhammer 40k que de normal, pero por el trabajo no tengo tanto tiempo como antes para pararme a estudiar posibles combates. 
+**User Journey:** [User Journey 2](user_journeys.md#user-journey-2-el-torneo-de-alejandro-se-acerca)
 
-Lo que hacía antes era reunirme con amigos míos y probar nosotros manualmente, pero al consumir tanto tiempo ya no lo hacemos. Anotabamos los resultados y sacabamos análisis estadísticos de ellos.
+**Fuentes de los datos:** [¿Qué datos hay disponibles?](../README.md#qué-datos-hay-disponibles), [Como funciona un combate en Warhammer 40k](../README.md#cuál-es-el-problema)
+
+Por culpa del trabajo, mi equipo y yo no tenemos tanto tiempo como antes para prepararnos antes de un torneo. Lo que hacíamos era reunirnos y probar enfrentamientos manualmente pasando por todas las fases de estos enfrentamientos para anotar los resultados y sacar análisis estadísticos de ellos, sacando medias del daño que podríamos hacer, el mínimo o el máximo. En resumen, saber de forma clara la conclusión de los enfrentamientos. Ahora ya no podemos hacerlo porque consume mucho tiempo, por lo que hecho en falta una herramienta para realizar esto de forma automática y cómoda. 
 
 ## [HU003] No se que enfrentamiento me interesa
 
-**Persona:** [Luis](personas.md). 
+**Persona:** [Luis](personas.md#luis-21-años). 
+
+**User Journey:** [User Journey 1](user_journeys.md#user-journey-1-luis-tiene-una-partida).
+
+**Fuentes de los datos:** [¿Qué datos hay disponibles?](../README.md#qué-datos-hay-disponibles)
 
 En muchas partidas una de mis unidades puede enfrentarse a una u otra del rival, pero como no sé cómo valorar que enfrentamiento me resulta más favorable, no tengo claro cuál de las dos opciones me interesa más.
 
